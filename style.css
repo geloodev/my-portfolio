@@ -1,0 +1,184 @@
+/* 
+    CUSTOM COLORS AND FONTS
+*/
+
+:root {
+    --primary-color: #eff1f5;
+    --secondary-color: #4c4f69;
+    --accent-color: #7287fd;
+    --green: #40a02b;
+}
+
+@font-face {
+    src: url("fonts/hinted-Sk-Modernist-Mono.ttf");
+    font-family: 'SK Modernist Mono';
+}
+
+/* 
+    DEFAULT ELEMENTS
+*/
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    align-content: center;
+    font-family: 'IBM Plex Mono';
+}
+
+h2 {
+    margin: 0 0 20px 0;
+    color: var(--accent-color);
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+p {
+    font-size: 30px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+span {
+    font-weight: bold;
+}
+
+svg {
+    width: inherit;
+    stroke-width: 4px;
+}
+
+/* 
+    MAIN AND HERO
+*/
+
+.main {
+    display: block;
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    margin: 150px 0 100px 0;
+    padding: 0;
+}
+
+#hero-img {
+    border: 4px solid var(--secondary-color);
+    border-radius: 4px;
+    width: 300px;
+    margin-right: 40px;
+}
+
+#hero-titles-container {
+    width: auto;
+}
+
+#title-1 {
+    color: var(--accent-color);
+    font-family: 'SK Modernist Mono';
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+#title-2, #title-3 {
+    font-weight: normal;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+/* 
+    SECTIONS
+*/
+
+.sections-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sections {
+    width: 570px;
+}
+
+#brazil-anchor {
+    color: var(--green);
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    border: 4px solid transparent;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.project:hover {
+    border: 4px solid var(--accent-color);
+    color: var(--accent-color)
+    
+}
+
+.project:hover .icon-project .hover-fill-color path {
+    fill: var(--accent-color);
+}
+
+.project:hover .icon-project .hover-stroke-color path {
+    stroke: var(--accent-color);
+}
+
+.icon-project {
+    width: 60px;
+    margin-left: 20px;
+}
+
+.text-project {
+    margin: 20px;
+}
+
+.paragraph-project {
+    font-size: 24px;
+    margin: 0;
+}
+
+.italic-span {
+    font-style: italic;
+}
+
+/*
+    SOCIALS
+*/
+
+.socials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 150px auto;
+
+}
+
+.icon-social {
+    width: 75px;
+    margin: 0 20px;
+}
+
+.icon-social:hover .hover-fill-color path {
+    fill: var(--accent-color);
+}
+
+.icon-social:hover .hover-stroke-color path {
+    stroke: var(--accent-color);
+}
