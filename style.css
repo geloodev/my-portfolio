@@ -182,3 +182,17 @@ svg {
 .icon-social:hover .hover-stroke-color path {
     stroke: var(--accent-color);
 }
+
+/*
+    @MEDIA
+*/
+
+@media (max-width: 1000px) {
+    .sections-container {
+        display: block;
+    }
+
+    .sections {
+        width: 100%;
+    }
+}
