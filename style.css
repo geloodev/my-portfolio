@@ -29,16 +29,16 @@ body {
 h2 {
     margin: 0 0 20px 0;
     color: var(--accent-color);
-    font-size: 36px;
+    font-size: 32px;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 20px;
     margin: 0 0 10px 0;
 }
 
 p {
-    font-size: 30px;
+    font-size: 24px;
     text-align: justify;
     margin: 20px 0;
 }
@@ -63,7 +63,7 @@ svg {
 
 .main {
     display: block;
-    width: 1180px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -95,7 +95,7 @@ svg {
 
 #title-2, #title-3 {
     font-weight: normal;
-    font-size: 30px;
+    font-size: 24px;
     margin: 10px 0;
 }
 
@@ -109,7 +109,7 @@ svg {
 }
 
 .sections {
-    width: 570px;
+    width: 480px;
 }
 
 #brazil-anchor {
@@ -171,7 +171,7 @@ svg {
 }
 
 .icon-social {
-    width: 75px;
+    width: 70px;
     margin: 0 20px;
 }
 
