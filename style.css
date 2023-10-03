@@ -192,6 +192,10 @@ svg {
         width: 100%;
     }
 
+    #hero {
+        margin: 10px 0 20px 0;
+    }
+
     .sections-container {
         display: block;
     }
@@ -209,7 +213,7 @@ svg {
     
     #hero-img {
         display: block;
-        margin: 0 auto;
-        width: 95%;
+        margin: 0 0 auto 0;
+        width: 50%;
     }
 }
